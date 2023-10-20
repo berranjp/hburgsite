@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Restaurants</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <style>
+            * {
+                box-sizing:border-box;
+            }
+            body {
+                margin:0;
+                padding:0;
+            }
+            img {
+                max-width:100%;
+                height:auto;
+                max-height:250px;
+            }
+            .container {
+                display:grid;
+                grid-template-columns:repeat(4, 1fr);
+                grid-auto-rows:minmax(100px, auto);
+                margin:90px auto 0 auto;
+            }
+            header {
+                grid-column:1/5;
+                text-align:center;
+            }
+            .box {
+                display:flex;
+                align-items:center;
+                justify-content:center;
+            }
+            .box1 {
+                grid-column:1/2;
+            }
+            .box2 {
+                grid-column:2/3;
+            }
+            .box3 {
+                grid-column:3/4;
+            }
+            .box4 {
+                grid-column:4/5;
+            }
+            footer {
+                grid-column:1/5;
+                text-align:center;
+            }
+            h1 {
+                font-family:montserrat,arial,sans-serif;
+                font-size:2.5rem;
+                color:#0a64a1;
+            }
+            p{
+                font-family:montserrat,arial,sans-serif;
+                color:#474747;
+            }
+            .footer-left {
+                grid-column:1/2;
+                text-align:left;
+            }
+            .footer-middle {
+                grid-column:2/4;
+                text-align:center;
+            }
+            .footer-right {
+                grid-column:4/5;
+                text-align:right;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <div class="logo"><a href="index.html"><img src="images/hburg-logo.png" alt="Harrisonburg VA"></a></div>
+            <div><a href="index.html">Home</a></div>
+            <div><a href="downtown.html">Downtown</a></div>
+            <div><a href="jmu.html">JMU</a></div>
+            <div><a href="links.html">Restaurants</a></div>
+            <div><a href="photos.html">Photos</a></div>
+        </nav>
+        <div class="container">
+            <header>
+                <h1>Restaurants</h1>
+            </header>
+            <div class="box box1">
+                <a href="https://www.bennysva.com/locations/benny-sorrentinos/" target="_blank"><img src="images/bennys-solid.png" alt="Benny Sorrentino's"></a>
+            </div>
+            <div class="box box2">
+                <a href="https://www.billyjacksshack.com/locations/harrisonburg-va/" target="_blank"><img src="images/billy-jacks-black.png" alt="Billy Jack's"></a>
+            </div>
+            <div class="box box3">
+                <a href="http://www.capitalalehouse.com/" target="_blank"><img src="images/capital-ale.png" alt="Capital Ale House"></a>
+            </div>
+            <div class="box box4">
+                <a href="https://www.jalapenosouthwestgrill.com/home" target="_blank"><img src="images/jalapeno-transparent.png" alt="Jalapeno Southwest Grill"></a>
+            </div>
+            <div class="box box1">
+                <a href="https://www.jackbrownsjoint.com/locations/harrisonburg/" target="_blank"><img src="images/jack-browns-trasnparent.png" alt="Jack Brown's"></a>
+            </div>
+            <div class="box box2">
+                <a href="https://www.klinesdairybar.com/" target="_blank"><img src="images/klines.png" alt="Klines Dairy Bar"></a>
+            </div>
+            <div class="box box3">
+                <a href="https://www.mrjsbagels.com/" target="_blank"><img src="images/mr-j.png" alt="Mr. J's Bagels"></a>
+            </div>
+            <div class="box box4">
+                <a href="https://www.oneillsgrill.com/" target="_blank"><img src="images/o-neills-transparent.png" alt="O'Neill's Grill"></a>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-left">
+                <p>
+                    1234 Main st.<br>
+                    Harrisonburg, VA<br>
+                    (555) 555-5555
+                </p>
+            </div>
+            <div class="footer-middle">
+                <p>
+                    &#169;2021 Harrisonburg
+                </p>
+            </div>
+            <div class="footer-right">
+                <p>
+                    <a href="#">Privacy policy</a><br>
+                    <a href="#">Terms of use</a><br>
+                    <a href="#">Contact us</a>
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>

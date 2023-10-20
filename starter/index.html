@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Visit Harrisonburg VA</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <style>
+            .container {
+                display:grid;
+                grid-template-columns:repeat(6, 1fr);
+                grid-auto-rows:minmax(100px, auto);
+                position:relative;
+                margin:0 auto 0 auto;
+            }
+            header {
+                background-image:url(images/harrisonburg.jpeg);
+                background-color:rgba(0, 0, 0, 0.5);
+                background-blend-mode:darken;
+                background-size:cover;
+                background-repeat:no-repeat;
+                background-position:center center;
+                background-attachment:fixed;
+                height:88vh;
+                margin-top:90px;
+            }
+            .banner-text {
+                display:flex;
+                justify-content:center;
+                flex-direction:column;
+                align-items:center;
+                height:100%;
+            }
+            .banner-text p {
+                margin-top:0;
+                margin-bottom:0;
+            }
+            .small-text {
+                text-align:center;
+                font-size:3.5em;
+                font-family:montserrat,arial,sans-serif;
+                color:#ffffff;
+            }
+            .big-text {
+                text-align:center;
+                font-size:4.5em;
+                font-family:montserrat,arial,sans-serif;
+                color:#ffffff;
+            }
+            section {
+                grid-column:1/7;
+            }
+            h1 {
+                font-family:montserrat,arial,sans-serif;
+                font-size:2.5rem;
+                padding-left:25px;
+                color:#2e7eb3;
+            }
+            p {
+                font-family:montserrat,arial,sans-serif;
+                color:#474747;
+            }
+            section p {
+                padding-left:25px;
+                padding-right:25px;
+                color:#474747;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <div class="logo"><a href="index.html"><img src="images/hburg-logo.png" alt="Harrisonburg VA"></a></div>
+            <div><a href="index.html">Home</a></div>
+            <div><a href="downtown.html">Downtown</a></div>
+            <div><a href="jmu.html">JMU</a></div>
+            <div><a href="links.html">Restaurants</a></div>
+            <div><a href="photos.html">Photos</a></div>
+        </nav>
+        <header>
+                <div class="banner-text">
+                    <p class="small-text">Visit</p>
+                    <p class="big-text">Harrisonburg, Virginia</p>
+                </div>
+            </header>
+        <div class="container">
+            <section>
+                <div>
+                    <h1>Experience the Friendly City</h1>
+                    <p>Affenctionately known as the friendly city, Harrisonburg is home to countless restaurants, shops, and more. It is also home to the beautiful campus of James Madison University. This tight-knit and bustling community is located in the heart of the Shenandoah Valley, and has countless opportunities for hiking, camping, and other outdoor recreation.</p>
+                    <p>Visit Harrisonburg, Virginia to experience unlimited possibilities and see all that the Shenandoah Valley has to offer! </p>
+                </div>
+            </section>
+        </div>
+        <footer>
+            <div class="footer-left">
+                <p>
+                    1234 Main st.<br>
+                    Harrisonburg, VA<br>
+                    (555) 555-5555
+                </p>
+            </div>
+            <div class="footer-middle">
+                <p>
+                    &#169;2021 Harrisonburg
+                </p>
+            </div>
+            <div class="footer-right">
+                <p>
+                    <a href="#">Privacy policy</a><br>
+                    <a href="#">Terms of use</a><br>
+                    <a href="#">Contact us</a>
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>
